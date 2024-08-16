@@ -1,0 +1,123 @@
+/* Estilo geral para a página sobre Artemis */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00aaff, #aa00ff); /* Degradê de azul a roxo */
+    color: #fff; /* Texto branco para contraste com o fundo */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Gloock', serif; /* Fonte grega */
+    font-size: 4em;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: 'Gloock', serif; /* Fonte grega */
+    font-size: 3em;
+    margin: 20px 0;
+    
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.8;
+    margin: 15px 0;
+    color: #f5f5f5; /* Texto branco suave */
+    text-align: justify; /* Justifica o texto para um visual mais alinhado */
+    padding: 0 15px; /* Espaçamento interno para conforto de leitura */
+    text-indent: 30px;
+    font-size: 1.5em;
+    margin: 10px 0;
+    line-height: 1.6;
+    text-indent: 30px;
+    text-align: justify;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+
+/* Estilo para as imagens na página da deusa Artemis */
+.imagem {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Estilo para as seções de história e cultos */
+.historia, .cultos {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #222; /* Cor de fundo escura */
+    color: #ccc; /* Cor do texto mais clara */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 20px 0; /* Espaçamento interno */
+    position: fixed; /* Fixar o rodapé no final da página */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar o rodapé */
+    font-family: 'Arial', sans-serif; /* Fonte do texto no rodapé */
+}
+
+footer p {
+    margin: 5px 0; /* Margem entre os parágrafos */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+footer a {
+    color: #ccc; /* Cor dos links */
+    text-decoration: none;
+    margin: 0 10px; /* Espaçamento entre ícones */
+    transition: color 0.3s; /* Efeito de transição para o hover */
+}
+
+footer a:hover {
+    color: #fff; /* Muda a cor ao passar o mouse */
+    text-decoration: underline; /* Sublinhar ao passar o mouse */
+}
+
+.social-icon {
+    width: 30px; /* Tamanho dos ícones sociais */
+    height: auto;
+    margin: 0 5px;
+    filter: brightness(0.8); /* Escurecer ligeiramente os ícones */
+    transition: filter 0.3s, transform 0.3s; /* Efeitos de transição para hover */
+}
